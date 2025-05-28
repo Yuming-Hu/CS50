@@ -1,0 +1,134 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f7f7fa;
+    color: #222;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    color: #3a3a7a;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2.2em;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.2em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Lists */
+ol, ul {
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+li {
+    margin-bottom: 0.3em;
+}
+
+/* Image styling */
+img {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(60,60,100,0.12);
+    margin-bottom: 0.5em;
+    display: block;
+}
+
+/* Link styling */
+a {
+    color: #3366cc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+a:hover {
+    color: #1a237e;
+    text-decoration: underline;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-bottom: 1.5em;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+th, td {
+    border: 1px solid #d0d0e0;
+    padding: 0.6em 1em;
+    text-align: left;
+}
+
+th {
+    background: #e8eaf6;
+    color: #222;
+}
+
+tr:nth-child(even) {
+    background: #f4f6fb;
+}
+
+/* Form styling */
+form {
+    background: #fff;
+    padding: 1.5em 2em;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+    width: 350px;
+    margin-top: 1em;
+}
+
+input[type="text"],
+input[type="password"],
+input[list] {
+    width: 90%;
+    padding: 0.5em;
+    margin: 0.4em 0 1em 0;
+    border: 1px solid #b0b0c0;
+    border-radius: 5px;
+    font-size: 1em;
+    background: #f9f9fc;
+}
+
+input[type="radio"] {
+    margin-left: 1em;
+    margin-right: 0.3em;
+}
+
+input[type="submit"] {
+    background: #3a3a7a;
+    color: #fff;
+    border: none;
+    padding: 0.6em 1.4em;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 1em;
+    transition: background 0.2s;
+}
+
+input[type="submit"]:hover {
+    background: #22225a;
+}
